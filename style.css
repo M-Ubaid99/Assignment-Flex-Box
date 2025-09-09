@@ -1,0 +1,156 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+ body {
+     display: flex;
+     justify-content: center;
+     background-color: rgb(49, 49, 49);
+ }
+
+ #main {
+     background-color: #3AB371;
+     width: 700px;
+     display: flex;
+     justify-content: center;
+     flex-flow: column;
+ }
+
+ .upper {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+ .lower {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin-top: 20px;
+ }
+
+ .a-image {
+     height: 200px;
+     width: 300px;
+ }
+
+ .b-image {
+     height: 180px;
+     width: 300px;
+ }
+
+ .c-image,
+ .d-image {
+     width: 140px;
+     height: 80px;
+ }
+
+ .a {
+     padding-right: 5px;
+ }
+
+ .a,
+ .b {
+     width: 300px;
+     height: 350px;
+     background-color: white;
+     color: black;
+ }
+
+ .c {
+     width: 100px;
+ }
+
+ .c,
+ .d {
+     width: 140px;
+     height: 150px;
+     padding-bottom: 10px;
+     background-color: white;
+ }
+
+ .e {
+     background-color: white;
+     width: 300px;
+     margin-bottom: 10px;
+ }
+
+ .text {
+     padding-left: 10px;
+ }
+
+ .text>h4 {
+     padding-top: 10px;
+     color: #363636;
+ }
+
+ .text>p {
+     font-size: 11px;
+     padding-top: 5px;
+     color: rgb(146, 146, 146);
+     line-height: 13px;
+ }
+
+ .upclass {
+     text-align: center;
+     color: white;
+     margin-top: 40px;
+ }
+
+ .upclass>p {
+     text-decoration: underline;
+     margin-top: 10px;
+     margin-bottom: 30px;
+     color: #97D6B3;
+ }
+
+ .a>.text>.lower-text {
+     display: inline-block;
+     margin-top: 17px;
+ }
+
+ .b>.text>p {
+     line-height: 8px;
+ }
+
+ .a>.text>.lower-text2,
+ .b>.text>.lower-text2,
+ .e>.text>.lower-text2 {
+     padding-left: 140px;
+ }
+
+ .b>.text>.lower-text {
+     display: inline-block;
+     margin-top: 65px;
+ }
+
+ .lower-left {
+     width: 300px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .e>.text>.lower-text {
+     display: inline-block;
+     margin-top: 60px;
+ }
+
+ .a:hover,
+ .b:hover,
+ .c:hover,
+ .d:hover,
+ .e:hover {
+     transform: translateY(-3px);
+     box-shadow: 0px 3px 15px rgb(33, 33, 33);
+ }
+
+ .a:hover p,
+ .b:hover p,
+ .c:hover p,
+ .d:hover p,
+ .e:hover p {
+     color: rgb(89, 93, 92);
+ }
